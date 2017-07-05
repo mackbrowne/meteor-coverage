@@ -19,6 +19,7 @@ hookLoader = function (opts) {
   opts = opts || {};
   opts.verbose = true;
   opts.coverageVariable = '__coverage__'; // force this always
+  opts['include-all-sources'] = true;
 
   /* istanbul ignore else */
   if (instrumenter !== undefined) {
