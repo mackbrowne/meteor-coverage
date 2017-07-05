@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'lmieulet:meteor-coverage',
+  name: 'auxita:meteor-coverage',
   version: '1.1.4',
   summary: 'Server and client coverage for Meteor',
   git: 'https://github.com/serut/meteor-coverage',
